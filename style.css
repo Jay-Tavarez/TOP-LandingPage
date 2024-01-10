@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     padding: 23px;
@@ -40,18 +44,22 @@
 
 .hero {
     gap: 75px;
+    margin: 15px 125px;
+    padding: 45px;
     display: flex;
-    padding: 75px;
     align-items: center;
     justify-content: center;
 }
 
 .hero-text {
-    width: 500px;
+    flex: 1;
+}
+
+.button1 {
+    border: none;
 }
 
 button {
-    border: none;
     color: #e5e7eb;
     padding: 6px 20px;
     border-radius: 8px;
@@ -69,6 +77,7 @@ button {
 ul {
     gap: 30px;
     display: flex;
+    padding: 32px;
     align-items: flex-start;
     justify-content: center;
 }
@@ -80,8 +89,65 @@ ul li {
 }
 
 li img {
-    border-color: #3882f6;
     width: auto;
     height: 300px;
+    border-radius: 12px;
 }
 
+.quote-container {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937c9;
+}
+
+.credit {
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    text-align: right;
+}
+
+.call-container {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    padding: 15px;
+    border-radius: 12px;
+    align-items: center;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+}
+ .call-main {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 600;
+ }
+
+ .call-sub {
+    color: #e5e7eb;
+ }
+
+ .button2 {
+    border: solid 2px #f9faf8;
+ }
+
+ .footer {
+    color: #e5e7eb;
+    padding: 35px;
+    text-align: center;
+    background-color: #1f2937;
+ }
